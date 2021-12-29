@@ -98,12 +98,12 @@ int main(){
 	g.addEdge("Prabhu","Modi",false);
 	
 /*
-	_________> Modi-->Prabhu<----
-   |			/  \          /
-  |		  	  / 	\      /
-Putin------>Trump	  Yogi
-|
-|---->Pope
+    ___________________> Modi-->Prabhu <----
+   |			/    \            /
+   |		      /       \         /
+   Putin------>   Trump	         Yogi
+   |
+   |---->Pope
 */
 	g.print();
 	g.bfsAll();
